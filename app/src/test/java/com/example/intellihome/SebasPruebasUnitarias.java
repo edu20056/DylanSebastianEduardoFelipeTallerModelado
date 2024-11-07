@@ -56,7 +56,7 @@ public class SebasPruebasUnitarias {
     // Pruebas unitarias para validarEmail
     @Test
     public void Test1ValidarEmail() {
-        String validEmail = "user.name@example";
+        String validEmail = "user.name@example.com";
         assertTrue("El email válido debería ser aceptado.", validator.validarEmail(validEmail));
     }
 
