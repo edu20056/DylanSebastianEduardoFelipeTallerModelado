@@ -25,8 +25,6 @@ public class SebasPruebasUnitarias {
         // Crear un mock de Context usando Mockito
         context = mock(Context.class);
 
-        // Robolectric se encargará de simular Toast.makeText internamente
-
         // Crear instancia de Validator pasando el mock de Context
         validator = new Validator(context);
     }
@@ -58,7 +56,7 @@ public class SebasPruebasUnitarias {
     // Pruebas unitarias para validarEmail
     @Test
     public void Test1ValidarEmail() {
-        String validEmail = "user.name@example.com";
+        String validEmail = "user.name@example";
         assertTrue("El email válido debería ser aceptado.", validator.validarEmail(validEmail));
     }
 
