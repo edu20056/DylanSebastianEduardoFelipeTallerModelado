@@ -14,7 +14,7 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.Calendar;
 
-public class Test1validarContraseñasIguales {
+public class Test1validarTarjeta {
     private Validator validator;
 
     @Mock
@@ -65,6 +65,3 @@ public class Test1validarContraseñasIguales {
     }
 
 }
-
-
-
