@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título Principal -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <!-- Fecha de entrada en vigor -->
+        <TextView
+            android:id="@+id/effective_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/effective_date"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Introducción -->
+        <TextView
+            android:id="@+id/introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introduction"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 1: Definiciones -->
+        <TextView
+            android:id="@+id/section1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section1"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section1_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section1_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 2: Aceptación de Términos -->
+        <TextView
+            android:id="@+id/section2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section2"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section2_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section2_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 3: Registro de Usuario -->
+        <TextView
+            android:id="@+id/section3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section3"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section3_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section3_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 4: Uso de la Aplicación -->
+        <TextView
+            android:id="@+id/section4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section4"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section4_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section4_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 5: Propiedades -->
+        <TextView
+            android:id="@+id/section5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section5"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section5_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section5_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 6: Comisiones y Pagos -->
+        <TextView
+            android:id="@+id/section6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section6"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section6_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section6_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 7: Política de Cancelación -->
+        <TextView
+            android:id="@+id/section7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section7"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section7_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section7_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 8: Limitación de Responsabilidad -->
+        <TextView
+            android:id="@+id/section8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section8"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section8_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section8_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 9: Propiedad Intelectual -->
+        <TextView
+            android:id="@+id/section9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section9"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section9_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section9_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 10: Modificaciones a los Términos -->
+        <TextView
+            android:id="@+id/section10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section10"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section10_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section10_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 11: Legislación Aplicable -->
+        <TextView
+            android:id="@+id/section11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section11"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section11_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section11_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Sección 12: Contacto -->
+        <TextView
+            android:id="@+id/section12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section12"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/section12_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/section12_content"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Botón para continuar -->
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_continue"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
