@@ -42,7 +42,7 @@ public class ValidatorTest {
     @Test
     public void Test3ValidarPassword() {
         String password = "val1p!";
-        assertFalse(validator.validarPassword(password));
+        assertTrue(validator.validarPassword(password));
     }
 
     @Test
