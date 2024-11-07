@@ -100,7 +100,7 @@ public class Validator {
         Matcher matcher = pattern.matcher(password);
 
         if (!matcher.matches()) {
-            mostrarError(context.getString(R.string.contrainvRegisterActivity));
+            // mostrarError(context.getString(R.string.contrainvRegisterActivity));
             return false;
         }
 
@@ -126,7 +126,7 @@ public class Validator {
         if (edad >= 18) {
             return true;
         } else {
-            mostrarMensaje(context.getString(R.string.debe18tenerRegisterActivity));
+            // mostrarMensaje(context.getString(R.string.debe18tenerRegisterActivity));
             return false;
         }
     }

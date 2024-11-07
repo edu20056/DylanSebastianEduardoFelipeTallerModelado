@@ -42,6 +42,8 @@ dependencies {
     implementation(libs.play.services.maps)
     implementation(libs.core)
     testImplementation(libs.junit)
+    testImplementation("org.mockito:mockito-core:4.0.0")
+    testImplementation(libs.test.core)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
