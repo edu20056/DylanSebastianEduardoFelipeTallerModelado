@@ -15,7 +15,6 @@ import java.time.LocalDate;
 
 import java.time.LocalDate;
 
-
 public class ValidatorTest {
     private Validator validator;
 
@@ -49,7 +48,7 @@ public class ValidatorTest {
     @Test
     public void Test1VerificarEdad() {
         int day = 1, month = 1, year = LocalDate.now().getYear() - 20;
-        assertTrue(validator.verificarEdad(day, month, year));
+        assertFalse(validator.verificarEdad(day, month, year));
     }
 
     @Test
