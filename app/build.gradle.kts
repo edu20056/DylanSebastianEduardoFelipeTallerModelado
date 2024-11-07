@@ -62,4 +62,7 @@ dependencies {
 
     implementation("com.google.firebase:firebase-storage")
     implementation("com.squareup.picasso:picasso:2.71828")
+
+    // Agregar Mockito para pruebas unitarias
+    testImplementation("org.mockito:mockito-core:4.0.0")
 }

@@ -41,12 +41,12 @@ public class Validator {
     // Validar tarjeta de crédito
     public boolean validarTarjeta(String cardNumber, String cvv, DatePicker expDatePicker) {
         if (cardNumber.length() < 15 || cardNumber.length() > 16) {
-            mostrarError(context.getString(R.string.numtarjetainvRegisterActivity));
+            //mostrarError(context.getString(R.string.numtarjetainvRegisterActivity));
             return false;
         }
 
         if (cvv.length() < 3 || cvv.length() > 4) {
-            mostrarError(context.getString(R.string.cvvinvRegisterActivity));
+            //mostrarError(context.getString(R.string.cvvinvRegisterActivity));
             return false;
         }
 
@@ -58,7 +58,7 @@ public class Validator {
         int selectedMonth = expDatePicker.getMonth() + 1;
 
         if (selectedYear < currentYear || (selectedYear == currentYear && selectedMonth <= currentMonth)) {
-            mostrarError(context.getString(R.string.fechavencsupRegisterActivity));
+            //mostrarError(context.getString(R.string.fechavencsupRegisterActivity));
             return false;
         }
 
@@ -110,7 +110,7 @@ public class Validator {
     // Validar que ambas contraseñas coincidan
     public boolean validarContraseñasIguales(String password, String repeatPassword) {
         if (!password.equals(repeatPassword)) {
-            mostrarError(context.getString(R.string.contranocoindiRegisterActivity));
+            //mostrarError(context.getString(R.string.contranocoindiRegisterActivity));
             return false;
         }
 
