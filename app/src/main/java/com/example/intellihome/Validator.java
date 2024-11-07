@@ -72,7 +72,7 @@ public class Validator {
         Matcher matcher = pattern.matcher(iban);
 
         if (!matcher.matches()) {
-            mostrarError(context.getString(R.string.ibaninvRegisterActivity));
+            //mostrarError(context.getString(R.string.ibaninvRegisterActivity));
             return false;
         }
 
@@ -81,12 +81,12 @@ public class Validator {
 
     // Validar email
     public boolean validarEmail(String email) {
-        final String emailRegex = "([a-zA-Z0-9]+)([\\_\\.\\-{1}])*([a-zA-Z0-9]+)\\@([a-zA-Z0-9]+)([\\.])([a-zA-Z\\.]+)";
+        final String emailRegex = "([a-zA-Z0 -9]+)([\\_\\.\\-{1}])*([a-zA-Z0-9]+)\\@([a-zA-Z0-9]+)([\\.])([a-zA-Z\\.]+)";
         Pattern pattern = Pattern.compile(emailRegex);
         Matcher matcher = pattern.matcher(email);
 
         if (!matcher.matches()) {
-            mostrarError(context.getString(R.string.emailinvRegisterActivity));
+            //mostrarError(context.getString(R.string.emailinvRegisterActivity));
             return false;
         }
 

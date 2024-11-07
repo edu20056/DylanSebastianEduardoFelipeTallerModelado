@@ -41,6 +41,9 @@ dependencies {
     implementation(libs.protolite.well.known.types)
     implementation(libs.play.services.maps)
     implementation(libs.core)
+    testImplementation(libs.robolectric)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.inline)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
@@ -63,3 +66,4 @@ dependencies {
     implementation("com.google.firebase:firebase-storage")
     implementation("com.squareup.picasso:picasso:2.71828")
 }
+
