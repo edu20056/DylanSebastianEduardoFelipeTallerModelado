@@ -51,7 +51,7 @@ public class SebasPruebasUnitarias {
 
     @Test
     public void Test3ValidarIBAN() {
-        String shortIBAN = "ES9122";
+        String shortIBAN = "ES9123";
         assertFalse("El IBAN demasiado corto debería ser rechazado.", validator.validarIBAN(shortIBAN));
     }
 
